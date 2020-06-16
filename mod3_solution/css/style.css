@@ -1,0 +1,99 @@
+body {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #1a1a1a;
+    background-color: gray;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #292929;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header {
+	height: 100px;
+}
+
+.navbar-brand a {
+	text-decoration: none;
+}
+
+.navbar-brand h1 {
+	color: #fff;
+	margin: 10px 15px 10px 15px;
+	text-shadow: 2px 2px 2px gray;
+	font-size: 40px;
+}
+#header-nav button {
+	margin-top: 57px;
+}
+#nav-list {
+	margin-top: 10px;
+	background-color: #fff;
+}
+
+#nav-list a {
+	color: #000;
+	font-size: 1.8em;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+#nav-list a:hover {
+	background-color: #292929;
+	color: #fff;
+}
+
+ /* End-Header */
+
+ /* Main containt */
+
+#main-containt h2 {
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px #292929;
+	margin-top: 30px;
+}
+
+ /* End Main Containt */
+
+ #chicken-tile, #beef-tile, #sushi-tile {
+ 	background-color: #c4c4c4;
+ 	width: 100%;
+ 	border: 2px solid #000;
+ 	margin: 30px 5px 30px 5px;
+ 	padding: 10px 10px 10px 10px;
+ 	overflow: hidden;
+ }
+#chicken-tile h3, #beef-tile h3, #sushi-tile h3 {
+	text-align: center;
+	font-size: 1.8em;
+	text-shadow: 1px 1px 1px gray;
+
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p {
+	font-size: 1.2em;
+	text-align: justify;
+}
+ /********** Large Device only **********/
+
+
+
+
+ /********** Medium Device only **********/
+
+
+ /********** Small Device only **********/
+
+
+/********** Extra Small Device only **********/
+
+
+ 

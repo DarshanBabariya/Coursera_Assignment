@@ -74,9 +74,13 @@ body {
 	float: left;
 	margin-top: 5px;
 	border: 1px solid #000;
-	text-transform: uppercase;
 	background-color: #F0A500;
 	color: #272833;
+}
+#headingcontent a span {
+	text-transform: uppercase;
+	padding: 5px;
+	font-size: 20px;
 }
 #headingcontent a:hover {
 	background-color: #CF7500;
@@ -447,7 +451,7 @@ body {
 
 	.navbar-brand {
 		height: 50px;
-		font-size: 6vw;	
+		font-size: 10vw;	
 		margin-left: 20px;
 	}
 	#nav-list a {
@@ -475,9 +479,7 @@ body {
 	#headingcontent a {
 		font-size: 12px;
 	}
-	#main-head {
-		height: 75vh;
-	}
+
 	/** END HEADING CONTENT **/
 	/** SERVICES **/
 	#services h3 {
@@ -531,4 +533,9 @@ body {
 		font-size: 14px;
 	}
 	/** END OF CAR RATE AND CLASS **/
+}
+@media (max-width: 445px) {
+	.navbar-header button {
+		margin-left: 50px;
+	}
 }

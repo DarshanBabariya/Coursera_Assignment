@@ -1,0 +1,534 @@
+body {
+	font-family: 'Oxygen';
+	font-size: 22px;
+	color: #000;
+	background-color: #FFF; 
+}
+
+/** HEADER **/
+
+#header-nav {
+	background-color: #272833;
+}
+.navbar-brand {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+	margin: 15px 15px 15px 0;
+	height: 70px;
+}
+.navbar-brand span {
+	color: #F5F5F5;
+}
+.navbar-brand span i {
+	font-size: 1.5em;
+	color: #F0A500;
+}
+#nav-list {
+	margin-left: auto;
+}
+#nav-list a {
+	color: #F5F5F5;
+	text-align: center;
+	margin-right: 25px;
+	
+}
+#nav-list a:hover {
+	color: #000;
+	background-color: #F5F5F5;
+}
+#nav-list a span {
+	font-size: 1.2em;
+}
+.navbar-header button {
+	margin: 25px 20px 25px 200px;
+}
+.navbar-header button.navbar-toggler {
+	border: 1px solid #fff;
+}
+
+/** END OF HEADER **/
+
+/** HEADING CONTENT **/
+#headingcontent{
+	margin-top: 20px;
+	background-color: #FFF;
+}
+#main-head {
+	background-color: #F5F5F5;
+	color: #272833;
+}
+#main-head h1{
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+}
+.lead {
+	font-size: 1.1em;
+}
+#brif-info p {
+	font-size: 22px;
+	padding-top: 10px;
+}
+#headingcontent a {
+	float: left;
+	margin-top: 5px;
+	border: 1px solid #000;
+	text-transform: uppercase;
+	background-color: #F0A500;
+	color: #272833;
+}
+#headingcontent a:hover {
+	background-color: #CF7500;
+	font-weight: bold;
+}
+
+/** END OF HEADING CONTENT **/
+
+/** SERVICES **/
+#services {
+	background-color: #F0A500;
+	margin-top: 90px; 
+	padding: 50px;
+}
+#offer h3 {
+	font-size: 1.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	color: #272833;
+}
+#service-tile {
+	text-align: center;
+}
+#service-tile span {
+	display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #272833;
+    line-height: 70px;
+    position: relative;
+}
+#service-tile span .fas {
+	color: #F0A500;
+	font-size: 25px;
+}
+#service-tile h4 {
+	margin: 20px;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	font-size: 22px;
+	font-weight: 600;
+	color: #272833;
+
+}
+#service-tile p {
+	font-size: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+	color: #272833;
+}
+#service-tile {
+	margin-top: 50px;
+}
+
+/** END OF SERVICES **/
+/** CAR RATE AND CLASS **/
+#diffclass {
+	text-align: center;
+	background-color: #F5F5F5;
+}
+#carclass-heading h3 {
+	font-size: 1.8em;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 60px;
+	color: #272833;
+}
+#carclass-heading span {
+	font-size: .9em;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #272833;
+}
+#carchoosing {
+	margin-top: 40px;
+	padding: 50px;
+}
+.carousel {
+	display: inline-block;
+	border-radius: 100% ;
+	position: relative;
+	background-color: #F0A500;
+	width: 350px;
+	height: 350px;
+	overflow: hidden;
+}
+.carousel-inner span {
+	display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #272833;
+    line-height: 70px;
+    position: relative;
+    margin-top: 120px;
+}
+.carousel-inner span .fas {
+	color: #F5F5F5;
+	font-size: 35px;
+}
+.carousel-item h3 {
+	margin-top: 50px;
+	font-size: 30px;
+	font-weight: 600;
+	color: #272833;
+}
+.carousel-item p {
+	margin: 80px;
+	font-size: 20px;
+	color: #272833;
+}
+.carousel-item h4 {
+	margin: 100px;
+	font-size: 35px;
+	color: #272833;
+}
+#cabrange {
+	background-color: #272833;
+	color: #FFF;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+#cabrange p {
+	padding: 2PX;
+}
+
+	
+/** END OF CAR RATE AND CLASS **/
+
+/*****		EXTRA LARGE DEVICE ONLY			*****/
+@media (min-width: 1200px) {
+
+}
+
+/*****		LARGE DEVICE ONLY			*****/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/** HEADING CONTENT **/
+	
+	#main-head h1{
+		font-size: 2.3em;
+	}
+	.lead {
+		font-size: 1em;
+	}
+	#brif-info p {
+		font-size: 20px;
+		padding-top: 7px;
+	}
+	#headingcontent a {
+		font-size: 17px;
+	}
+
+	/**END OF HEADING CONTENT **/
+	
+	/** SERVICES **/
+	#services h3 {
+		font-size: 1.5em;
+	}
+	#service-tile h4 {
+		font-size: 20px;
+	}
+	#service-tile p {
+		font-size: 18px;
+	}
+	#service-tile {
+		margin-top: 40px;
+	}
+	/** END OF SERVICES **/
+	/** CAR RATE AND CLASS **/
+	#carclass-heading h3 {
+		font-size: 1.5em;
+	}
+	#carclass-heading span {
+		font-size: .8em;
+	}
+	#carchoosing {
+		padding: 40px;
+	}
+	.carousel {
+		width: 300px;
+		height: 300px;
+	}
+	.carousel-inner span {
+		margin-top: 90px;
+		width: 70px;
+    	height: 70px;
+	}
+	.carousel-inner span .fas {
+		font-size: 35px;
+	}
+	.carousel-item h3 {
+		font-size: 25px;
+	}
+	.carousel-item p {
+		font-size: 17px;
+		margin: 60px;
+	}
+	.carousel-item h4 {
+		margin: 80px;
+		font-size: 28px;
+	}
+	#cabrange {
+		font-size: 16px;
+	}
+	/** END OF CAR RATE AND CLASS **/
+
+	
+
+}
+
+/*****		MEDIUM DEVICE ONLY			*****/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/** HEADING CONTENT **/
+	
+	#main-head h1{
+		font-size: 2.3em;
+	}
+	.lead {
+		font-size: 1em;
+	}
+	#brif-info p {
+		font-size: 20px;
+		padding-top: 7px;
+	}
+	#headingcontent a {
+		font-size: 17px;
+	}
+
+	/**END OF HEADING CONTENT **/
+	
+	/** SERVICES **/
+	#services h3 {
+		font-size: 1.5em;
+	}
+	#service-tile h4 {
+		font-size: 20px;
+	}
+	#service-tile p {
+		font-size: 18px;
+	}
+	#service-tile {
+		margin-top: 40px;
+	}
+	/** END OF SERVICES **/
+	/** CAR RATE AND CLASS **/
+	#carclass-heading h3 {
+		font-size: 1.5em;
+	}
+	#carclass-heading span {
+	font-size: .8em;
+	}
+	#carchoosing {
+		padding: 0;
+	}
+	.carousel {
+		width: 250px;
+		height: 250px;
+	}
+	.carousel-inner span {
+		margin-top: 60px;
+		width: 60px;
+    	height: 60px;
+	}
+	.carousel-inner span .fas {
+		font-size: 30px;
+	}
+	.carousel-item h3 {
+		font-size: 22px;
+	}
+	.carousel-item p {
+		font-size: 14px;
+		margin: 50px;
+	}
+	.carousel-item h4 {
+		margin: 60px;
+		font-size: 24px;
+	}
+	#cabrange {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	/** END OF CAR RATE AND CLASS **/
+
+	
+}
+
+/*****		SMALL DEVICE ONLY		*****/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	/** HEADING CONTENT **/
+
+	#main-head h1{
+		font-size: 2em;
+	}
+	.lead {
+		font-size: .8em;
+	}
+	#brif-info p {
+		font-size: 18px;
+		padding-top: 5px;
+	}
+	#headingcontent a {
+		font-size: 15px;
+	}
+	/** END HEADING CONTENT **/
+	/** SERVICES **/
+	#services h3 {
+		font-size: 1.3em;
+	}
+	#service-tile h4 {
+		font-size: 18px;
+	}
+	#service-tile p {
+		font-size: 16px;
+	}
+	#service-tile {
+		margin-top: 40px;
+	}
+	/** END OF SERVICES **/
+	/** CAR RATE AND CLASS **/
+	#carclass-heading h3 {
+		font-size: 1.3em;
+	}
+	#carclass-heading span {
+	font-size: .7em;
+	}
+	#carchoosing {
+		padding: 0;
+	}
+	.carousel {
+		width: 290px;
+		height: 290px;
+	}
+	.carousel-inner span {
+		margin-top: 90px;
+		width: 70px;
+    	height: 70px;
+	}
+	.carousel-inner span .fas {
+		font-size: 35px;
+	}
+	.carousel-item h3 {
+		font-size: 25px;
+	}
+	.carousel-item p {
+		font-size: 17px;
+		margin: 60px;
+	}
+	.carousel-item h4 {
+		margin: 80px;
+		font-size: 28px;
+	}
+	#cabrange {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	/** END OF CAR RATE AND CLASS **/
+}
+
+/*****		EXTRA SUPER SMALL DEVICE ONLY		*****/
+@media (max-width: 575.98px) {
+	
+	/** HEADER **/
+
+	.navbar-brand {
+		height: 50px;
+		font-size: 6vw;	
+		margin-left: 20px;
+	}
+	#nav-list a {
+		margin-right: 0;
+	}
+	#nav-list a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	/** END OF HEADER **/
+
+	/** HEADING CONTENT **/
+
+	#main-head h1{
+		font-size: 1.7em;
+	}
+	.lead {
+		font-size: .7em;
+	}
+	#brif-info p {
+		font-size: 15px;
+		padding-top: 3px;
+	}
+	#headingcontent a {
+		font-size: 12px;
+	}
+	#main-head {
+		height: 75vh;
+	}
+	/** END HEADING CONTENT **/
+	/** SERVICES **/
+	#services h3 {
+		font-size: 1.2em;
+	}
+	#service-tile h4 {
+		font-size: 18px;
+	}
+	#service-tile p {
+		font-size: 15px;
+	}
+	#service-tile {
+		margin-top: 40px;
+	}
+	/** END OF SERVICES **/
+	/** CAR RATE AND CLASS **/
+	#carclass-heading h3 {
+		font-size: 1.2em;
+	}
+	#carclass-heading span {
+	font-size: .6em;
+	}
+	#carchoosing {
+		padding: 0;
+	}
+	.carousel {
+		width: 250px;
+		height: 250px;
+	}
+	.carousel-inner span {
+		margin-top: 60px;
+		width: 60px;
+    	height: 60px;
+	}
+	.carousel-inner span .fas {
+		font-size: 30px;
+	}
+	.carousel-item h3 {
+		font-size: 22px;
+	}
+	.carousel-item p {
+		font-size: 14px;
+		margin: 50px;
+	}
+	.carousel-item h4 {
+		margin: 60px;
+		font-size: 24px;
+	}
+	#cabrange {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	/** END OF CAR RATE AND CLASS **/
+}
